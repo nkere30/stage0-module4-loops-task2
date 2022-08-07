@@ -12,7 +12,7 @@ public class WordsBuilder {
             }
             length++;
         }
-        System.out.println(result);
+        System.out.print(result);
     }
 
     public static void main(String[] args) {

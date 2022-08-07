@@ -10,7 +10,7 @@ public class Multiplication {
                 System.out.println(result);
                 firstPrinted--;
             }
-        } else {
+        } else if (multiplyByAndToInclusive > 0){
             while(firstPrinted <= multiplyByAndToInclusive) {
                 result = firstPrinted * multiplyByAndToInclusive;
                 System.out.println(result);
@@ -21,6 +21,6 @@ public class Multiplication {
 
     public static void main(String[] args) {
         //printMultiplied(5);
-        printMultiplied(-5);
+        printMultiplied(0);
     }
 }

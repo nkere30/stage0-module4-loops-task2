@@ -5,7 +5,7 @@ public class WordsBuilder {
         int length = 0;
         String result = "";
         while(length < chars.length) {
-            if(chars[length] == ' ') {
+            if(chars[length] == ' ' && length != chars.length -1) {
                 result +=' ';
             } else {
                 result += chars[length];
@@ -16,6 +16,6 @@ public class WordsBuilder {
     }
 
     public static void main(String[] args) {
-        buildPhrase('H', 'e', 'l', 'l', 'o', ',', ' ' , 'W', 'o', 'r', 'l', 'd', '!');
+        buildPhrase('l', 'o', 'o', 'p', 's', ' ', 'a', 'r', 'e', ' ', 'c', 'o', 'o', 'l');
     }
 }
